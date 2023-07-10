@@ -44,16 +44,21 @@ nav ul a{
 }
 .head-container{
     background-color: #FFF8F3;
-    padding: 30px 30px 150px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 30px 30px 0px 80px;
 }
 .banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+    
 }
 .banner-img{
     width: 300px;
+    
 }
 .banner-greeating{
     color: #474747;
@@ -83,4 +88,26 @@ nav ul a{
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
     margin-left: 10px;
+}
+/* about section  start*/
+.about{
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
