@@ -6,11 +6,9 @@
     margin: 0px;
     padding: 0px;
 }
-
 .text-primary {
     color: #FD6E0A;
 }
-
 .btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -19,58 +17,52 @@
     color: #fff;
     font-size: 18px;
 }
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    line-height: normal;
+    
 }
-
 .nav-ul {
     display: flex;
     align-items: center;
 
 
 }
-
 nav li {
     margin-right: 80px;
     list-style-type: none;
+    
 }
-
 nav ul a {
     text-decoration: none;
+    color: black;
 }
-
 .head-container {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    padding: 30px 30px 0px 80px;
+    background-position: bottom right, top left;
+    padding: 30px 30px 0px 150px;
 }
-
 .banner {
+    /* padding: 30px 30px 0px 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
-
+.banner-container{
+    max-width: 500px;
+}
 .banner-img {
-    width: 300px;
-
+    max-width: 550px; 
 }
-
 .banner-greeating {
     color: #474747;
     font-size: 35px;
@@ -78,7 +70,6 @@ nav ul a {
     font-weight: 600;
     line-height: normal;
 }
-
 .banner-title {
     color: #181818;
     font-size: 50px;
@@ -87,7 +78,6 @@ nav ul a {
     line-height: normal;
     padding: 15px 0px;
 }
-
 .banner-text {
     color: #757575;
     font-size: 15px;
@@ -96,7 +86,6 @@ nav ul a {
     line-height: 20px;
     margin-bottom: 18px;
 }
-
 .btn-cont {
     background-color: #fff;
     border: 1px solid #FD6E0A;
@@ -109,13 +98,11 @@ main {
     max-width: 1140px;
     margin: 0px auto;
 }
-
 .about {
     background-color: #FFF8F3;
-    padding: 130px;
-    margin: 130px 0px;
+    padding: 120px;
+    margin: 120px 0px;
 }
-
 .section-title {
     color: #181818;
     text-align: center;
@@ -123,28 +110,32 @@ main {
     font-style: normal;
     font-weight: 700;
     margin-bottom: 30px;
-
 }
-
 .section-description {
     color: #757575;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
 }
-
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
-
 .about-info {
     color: #757575;
     text-align: center;
     font-size: 14px;
     font-style: normal;
-    margin-top: 20px;
-
+    margin-top: 30px;
+}
+.info-title{
+    color: #9e9e9e;
+    font-weight: normal;
+}
+.info-description{
+    color: #181818;
+    font-weight: bold;
+    margin-top: 5px;
 }
